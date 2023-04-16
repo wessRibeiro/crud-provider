@@ -21,7 +21,6 @@ class DB {
     // Conexão
     private function Conectar(){
         $this->conexao= mysqli_connect($this->server,$this->user,$this->pass, $this->db);
-        //die(var_dump($this->conexao));
         mysqli_select_db($this->conexao, $this->db) or die(mysqli_error());
     }
 
