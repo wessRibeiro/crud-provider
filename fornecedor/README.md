@@ -14,7 +14,7 @@ SQL da Tabela Fornecedor:
     CREATE TABLE `fornecedor` (
     `id` int unsigned NOT NULL auto_increment,
     `nome` varchar(50) NOT NULL,
-    `telefone` int,
+    `telefone` varchar(11),
     `estado` char(2),
     `cidade` varchar(50),
     PRIMARY KEY (`id`)
