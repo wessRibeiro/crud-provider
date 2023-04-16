@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Fornecedor</title>
+</head>
+<body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <div class="col-lg-6">
+        <div class="container text-center" id="container-form">
+            <h1>
+                Criar Fornecedor
+            </h1>
+            <br>
+            <form action="create.php" method="post">
+                <div class="mb-3">
+                    <input type="text" required maxlength="50" placeholder="Nome" class="form-control" id="inputNome" name="inputNome">
+                </div>
+                <div class="mb-3">
+                    <input type="tel" required maxlength="9" placeholder="Telefone" class="form-control" id="inputTelefone" name="inputTelefone">
+                </div>
+                <div class="mb-3">
+                    <input type="text" required maxlength="2" placeholder="Estado" class="form-control" id="inputEstado" name="inputEstado">
+                </div>
+                <div class="mb-3">
+                    <input type="text" required maxlength="50" placeholder="Cidade" class="form-control" id="inputCidade" name="inputCidade">
+                </div>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-primary" type="submit"><b>Enviar</b></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
