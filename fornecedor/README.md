@@ -1,3 +1,7 @@
+# considerações: 
+- Removi adicionei a lib mysqli (mysql foi descontinuada à muito tempo)  
+
+# respostas:
 Com base nas informações abaixo, complete a classe Fornecedor:
 1) Insira uma linha na base de dados da tabela “fornecedor”. Conforme os dados abaixo:
    Id=1; nome=”Kalunga”; telefone=1138052000; estado=”SP”; cidade=“Osasco”
@@ -9,6 +13,14 @@ $provider->mostrarFornecedor();
 ````
 2) Mostre a consulta em linguagem SQL, da tabela “fornecedor”.(Mostre somente os dados da tabela)
 
+```` sql
+-- instrução sql para consultar a tabela  
+SELECT 
+   *
+FROM
+   fornecedor   
+````
+
 SQL da Tabela Fornecedor:
 ```` sql    
     CREATE TABLE `fornecedor` (
@@ -19,12 +31,4 @@ SQL da Tabela Fornecedor:
     `cidade` varchar(50),
     PRIMARY KEY (`id`)
     ) ENGINE=MyISAM DEFAULT CHARSET=latin1
-````
-
-```` sql
--- instrução sql para consultar a tabela  
-SELECT 
-   *
-FROM
-   fornecedor   
 ````
