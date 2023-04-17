@@ -1,5 +1,5 @@
 # considerações: 
-- Adicionei a lib mysqli (mysql foi descontinuada à muito tempo)  
+- Adicionei a lib mysqli (mysql foi descontinuada há muito tempo)  
 
 # respostas:
 Com base nas informações abaixo, complete a classe Fornecedor:
