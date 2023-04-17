@@ -1,5 +1,5 @@
 # informações:
-- A prova de questoes de multipla escolhas está localizada em : /perguntas-respondidas 
+- A prova de questoes de multiplas escolhas está localizada em : /perguntas-respondidas 
 - As questoes de php para table fornecedor está localizada em : /fornecedor
 - Este repositório cria um ambiente em docker para executar os codigos apresentados em : /fornecedor
 
