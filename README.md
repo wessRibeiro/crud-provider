@@ -28,5 +28,5 @@ Acessar o admin de banco de dados
 
 para desligar os serviços
 ```sh
-bash up.sh
+bash down.sh
 ```
