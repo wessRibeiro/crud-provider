@@ -5,6 +5,8 @@
 
 # para rodar o ambiente
 
+- você não precisa rodar na sua maquina, pode usar o codespace aqui do github: https://wessribeiro-scaling-space-waddle-rvvvvw977rhw74q.github.dev/ 
+
 Crie o Arquivo .env
 ```sh
 cp .env.example .env
